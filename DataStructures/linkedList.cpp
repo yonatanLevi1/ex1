@@ -16,11 +16,13 @@
  void printList(intNode* head) {
 	 intNode* curr = head;
 	 while (curr != NULL) {
-		 std::cout << curr->num +" - >" << std::endl;
+		 std::cout << curr->num << std::endl;
 		 curr = curr->next;
 	 }
  }
-
+ intNode* deleteNode(intNode* head) {
+	 return head->next;
+ }
  
 
 
