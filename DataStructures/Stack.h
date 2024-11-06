@@ -18,5 +18,7 @@ void cleanStack(Stack* s);
 
 bool isEmpty(Stack* s);
 bool isFull(Stack* s);
+int listLen(Stack* s);
+
 
 #endif // STACK_H
